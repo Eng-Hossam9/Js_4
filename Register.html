@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+</head>
+
+<body>
+
+    <div class="container my-5 text-center">
+        <div class="group m-auto w-75 p-5 box-data">
+            <h1>Smart Login System</h1>
+
+            <input id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
+            <input id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+            <input id="signupPassword" class="form-control  my-3" placeholder="Enter  password" type="password">
+            <button id="registrationbtn" class="btn btn-outline-info  w-100 my-3">Sign Up</button>
+            <p id="success" class="lead text-success fs-2 d-none">success</p>
+            <p id="registerfailed" class="lead  text-danger fs-2 d-none">Registration failed. email or password Not
+                Valid.</p>
+            <p id="exist" class="lead  text-danger fs-2 d-none">Email Already Exist</p>
+            <p class="text-white">You have an account? <a class="text-white signup" href="index.html">Signin</a></p>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Registration.js"></script>
+
+
+</body>
+
+</html>
